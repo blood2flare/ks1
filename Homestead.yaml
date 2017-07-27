@@ -9,8 +9,10 @@ folders:
       to: /home/vagrant/Code
 
 sites:
-    - map: homestead.app
+    - map: ks.app
       to: /home/vagrant/Code/ks1/public
+    - map: phpmyadmin.app
+      to: /usr/share/phpmyadmin
 
 databases:
     - homestead
